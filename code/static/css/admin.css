@@ -1,0 +1,88 @@
+body{background:#333;}
+dd{padding-bottom: 30px;}
+.adminnav{
+	background:#333;
+	padding: 36px;
+}
+.panel-heading{
+	cursor:pointer;
+}
+.main{
+	background:#fff;
+	border-radius: 5px;
+	padding-top:10px;
+	box-shadow: 3px 3px 20px 1px black;
+}
+.icona:focus,
+.icona:hover{
+	text-decoration:none;
+}
+.sysTit{
+	color:#fff;
+	margin-top: 0;
+}
+.seepwd{
+		position:absolute;
+		margin-top: -27px;
+		margin-left: 90%;
+		cursor:pointer;
+}
+.req {
+  font-weight: bold;
+  color: #d11149;
+  font-size: 1.1em;
+  text-transform: none;
+}
+.helptip{
+    position: absolute;
+    height: 60px;
+    right: 10px;
+    top: 20px;
+    padding: 10px;
+    line-height: 26px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    z-index: 1000;
+    -webkit-animation: move-in-right cubic-bezier(.22,.58,.12,.98) .4s;
+    animation: move-in-right cubic-bezier(.22,.58,.12,.98) .4s;
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.55);
+}
+.helptip1{
+	position: absolute;
+    right: 10px;
+    top: -7px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    z-index: 1000;
+    -webkit-animation: move-in-right cubic-bezier(.22,.58,.12,.98) .4s;
+    animation: move-in-right cubic-bezier(.22,.58,.12,.98) .4s;
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.55);
+}
+.userinfo{
+	background: rgba(51, 122, 183, 0.48);
+    padding: 10px;
+    border-radius: 10px;
+}
+.sysinfo{
+	padding:10px;
+}
+.clientinfo{
+	margin-top:-30px;
+	margin-left:8px;
+}
+.clientinfo b{
+	padding-right:70px;
+}
+@keyframes move-in-right{
+	0% {
+		opacity: 0;
+		-webkit-transform: translate(-5em,0);
+		transform: translate(-5em,0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate(0,0);
+		transform: translate(0,0);
+	}
+}
