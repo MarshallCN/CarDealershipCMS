@@ -14,7 +14,7 @@
 	</ul>
 	<div class="tab-content">
 		<div class="tab-pane active" id="panel-dashboard">
-			<h2 class='text-center'>Chengdu Ferrari Dealship CMS</h2><br>
+			<h2 class='text-center'>Chengdu Ferrari Dealership CMS</h2><br>
 			<div class='col-sm-12 userinfo'>
 				<label>Current User Infomation</label>
 				<table class='table'>
